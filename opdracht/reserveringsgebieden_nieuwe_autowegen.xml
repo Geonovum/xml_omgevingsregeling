@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AanleveringInformatieObject xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/"
+                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                             xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/ ../lvbb/lvbb-stop-aanlevering.xsd"
+                             schemaversie="1.0">
+   <InformatieObjectVersie>
+      <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <FRBRWork>/join/id/regdata/mnre1034/2019/GIO_reserveringsgebieden_nieuwe_autowegen</FRBRWork>
+         <FRBRExpression>/join/id/regdata/mnre1034/2019/GIO_reserveringsgebieden_nieuwe_autowegen/nld@2019-12-01</FRBRExpression>
+         <soortWork>/join/id/stop/work_007</soortWork>
+      </ExpressionIdentificatie>
+      <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <eindverantwoordelijke>/join/id/stop/ministerie/mnre1034</eindverantwoordelijke>
+         <maker>/join/id/stop/ministerie/mnre1034</maker>
+         <alternatieveTitels>
+            <alternatieveTitel>reserveringsgebieden_nieuwe_autowegen</alternatieveTitel>
+         </alternatieveTitels>
+         <officieleTitel>reserveringsgebieden_nieuwe_autowegen</officieleTitel>
+         <publicatieinstructie>TeConsolideren</publicatieinstructie>
+         <formaatInformatieobject>/join/id/stop/informatieobject/gio_002</formaatInformatieobject>
+         <soortenInformatieobject>
+            <soortInformatieobject>/join/id/stop/informatieobject/gio_001</soortInformatieobject>
+         </soortenInformatieobject>
+         <heeftGeboorteregeling>/akn/nl/act/mnre1034/2019/201912011101</heeftGeboorteregeling>
+         <heeftBestanden>
+            <heeftBestand>
+               <Bestand>
+                  <bestandsnaam>reserveringsgebieden_nieuwe_autowegen.gml</bestandsnaam>
+                  <!-- <https://www.gnu.org/software/coreutils/ -->
+                  <!--  SHA512 (512-bit) checksums: The sums are computed as described in FIPS-180-2. -->
+                  <hash>aadab3f4b1d3deaa90ae32013524fe94486af384df1b3f28a050fff29a623829f4f897eeb7766ce8537ee122539a0099de661c94d69c7faf8218566f67d57145</hash>
+               </Bestand>
+            </heeftBestand>
+         </heeftBestanden>
+      </InformatieObjectMetadata>
+   </InformatieObjectVersie>
+</AanleveringInformatieObject>

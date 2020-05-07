@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AanleveringInformatieObject xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/"
+                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                             xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/ ../lvbb/lvbb-stop-aanlevering.xsd"
+                             schemaversie="1.0">
+   <InformatieObjectVersie>
+      <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <FRBRWork>/join/id/regdata/mnre1034/2019/GIO_defensie_radarverstoringsgebied_windturbines_Volkel</FRBRWork>
+         <FRBRExpression>/join/id/regdata/mnre1034/2019/GIO_defensie_radarverstoringsgebied_windturbines_Volkel/nld@2019-12-01</FRBRExpression>
+         <soortWork>/join/id/stop/work_007</soortWork>
+      </ExpressionIdentificatie>
+      <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <eindverantwoordelijke>/join/id/stop/ministerie/mnre1034</eindverantwoordelijke>
+         <maker>/join/id/stop/ministerie/mnre1034</maker>
+         <alternatieveTitels>
+            <alternatieveTitel>defensie_radarverstoringsgebied_windturbines_Volkel</alternatieveTitel>
+         </alternatieveTitels>
+         <officieleTitel>defensie_radarverstoringsgebied_windturbines_Volkel</officieleTitel>
+         <publicatieinstructie>TeConsolideren</publicatieinstructie>
+         <formaatInformatieobject>/join/id/stop/informatieobject/gio_002</formaatInformatieobject>
+         <soortenInformatieobject>
+            <soortInformatieobject>/join/id/stop/informatieobject/gio_001</soortInformatieobject>
+         </soortenInformatieobject>
+         <heeftGeboorteregeling>/akn/nl/act/mnre1034/2019/201912011101</heeftGeboorteregeling>
+         <heeftBestanden>
+            <heeftBestand>
+               <Bestand>
+                  <bestandsnaam>defensie_radarverstoringsgebied_windturbines_Volkel.gml</bestandsnaam>
+                  <!-- <https://www.gnu.org/software/coreutils/ -->
+                  <!--  SHA512 (512-bit) checksums: The sums are computed as described in FIPS-180-2. -->
+                  <hash>b4c8bb86e5f2620ac1235d57d435b8f6cc708db4df16ebd14d6602027014cec4c1e8b6863673852bc78f0c5440a806cd2f7185fb8a0166839078801426c55870</hash>
+               </Bestand>
+            </heeftBestand>
+         </heeftBestanden>
+      </InformatieObjectMetadata>
+   </InformatieObjectVersie>
+</AanleveringInformatieObject>

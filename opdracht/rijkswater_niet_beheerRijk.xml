@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AanleveringInformatieObject xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/"
+                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                             xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/ ../lvbb/lvbb-stop-aanlevering.xsd"
+                             schemaversie="1.0">
+   <InformatieObjectVersie>
+      <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <FRBRWork>/join/id/regdata/mnre1034/2019/GIO_rijkswater_niet_beheerRijk</FRBRWork>
+         <FRBRExpression>/join/id/regdata/mnre1034/2019/GIO_rijkswater_niet_beheerRijk/nld@2019-12-01</FRBRExpression>
+         <soortWork>/join/id/stop/work_007</soortWork>
+      </ExpressionIdentificatie>
+      <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <eindverantwoordelijke>/join/id/stop/ministerie/mnre1034</eindverantwoordelijke>
+         <maker>/join/id/stop/ministerie/mnre1034</maker>
+         <alternatieveTitels>
+            <alternatieveTitel>rijkswater_niet_beheerRijk</alternatieveTitel>
+         </alternatieveTitels>
+         <officieleTitel>rijkswater_niet_beheerRijk</officieleTitel>
+         <publicatieinstructie>TeConsolideren</publicatieinstructie>
+         <formaatInformatieobject>/join/id/stop/informatieobject/gio_002</formaatInformatieobject>
+         <soortenInformatieobject>
+            <soortInformatieobject>/join/id/stop/informatieobject/gio_001</soortInformatieobject>
+         </soortenInformatieobject>
+         <heeftGeboorteregeling>/akn/nl/act/mnre1034/2019/201912011101</heeftGeboorteregeling>
+         <heeftBestanden>
+            <heeftBestand>
+               <Bestand>
+                  <bestandsnaam>rijkswater_niet_beheerRijk.gml</bestandsnaam>
+                  <!-- <https://www.gnu.org/software/coreutils/ -->
+                  <!--  SHA512 (512-bit) checksums: The sums are computed as described in FIPS-180-2. -->
+                  <hash>1f240f4db2211b4471d8f6e79f916ddbcb21430962e23937e409693f164c85f2bf4f073bd95434af8d2c0f2cb71f52b084de6508f4ba8f54f9c5b5702a5e8e44</hash>
+               </Bestand>
+            </heeftBestand>
+         </heeftBestanden>
+      </InformatieObjectMetadata>
+   </InformatieObjectVersie>
+</AanleveringInformatieObject>

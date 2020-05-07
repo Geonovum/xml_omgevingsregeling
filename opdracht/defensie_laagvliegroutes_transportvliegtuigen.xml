@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AanleveringInformatieObject xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/"
+                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                             xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/ ../lvbb/lvbb-stop-aanlevering.xsd"
+                             schemaversie="1.0">
+   <InformatieObjectVersie>
+      <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <FRBRWork>/join/id/regdata/mnre1034/2019/GIO_defensie_laagvliegroutes_transportvliegtuigen</FRBRWork>
+         <FRBRExpression>/join/id/regdata/mnre1034/2019/GIO_defensie_laagvliegroutes_transportvliegtuigen/nld@2019-12-01</FRBRExpression>
+         <soortWork>/join/id/stop/work_007</soortWork>
+      </ExpressionIdentificatie>
+      <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <eindverantwoordelijke>/join/id/stop/ministerie/mnre1034</eindverantwoordelijke>
+         <maker>/join/id/stop/ministerie/mnre1034</maker>
+         <alternatieveTitels>
+            <alternatieveTitel>defensie_laagvliegroutes_transportvliegtuigen</alternatieveTitel>
+         </alternatieveTitels>
+         <officieleTitel>defensie_laagvliegroutes_transportvliegtuigen</officieleTitel>
+         <publicatieinstructie>TeConsolideren</publicatieinstructie>
+         <formaatInformatieobject>/join/id/stop/informatieobject/gio_002</formaatInformatieobject>
+         <soortenInformatieobject>
+            <soortInformatieobject>/join/id/stop/informatieobject/gio_001</soortInformatieobject>
+         </soortenInformatieobject>
+         <heeftGeboorteregeling>/akn/nl/act/mnre1034/2019/201912011101</heeftGeboorteregeling>
+         <heeftBestanden>
+            <heeftBestand>
+               <Bestand>
+                  <bestandsnaam>defensie_laagvliegroutes_transportvliegtuigen.gml</bestandsnaam>
+                  <!-- <https://www.gnu.org/software/coreutils/ -->
+                  <!--  SHA512 (512-bit) checksums: The sums are computed as described in FIPS-180-2. -->
+                  <hash>c7c46b20472ca46ccd1f6382b731cf056a298331c3109c5e7b556e1daef43e46e8372ef989c24e6d3235053d423948e005dcef6ef597825d73d016e953b63b24</hash>
+               </Bestand>
+            </heeftBestand>
+         </heeftBestanden>
+      </InformatieObjectMetadata>
+   </InformatieObjectVersie>
+</AanleveringInformatieObject>

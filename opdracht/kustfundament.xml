@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AanleveringInformatieObject xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/"
+                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                             xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/ ../lvbb/lvbb-stop-aanlevering.xsd"
+                             schemaversie="1.0">
+   <InformatieObjectVersie>
+      <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <FRBRWork>/join/id/regdata/mnre1034/2019/GIO_kustfundament</FRBRWork>
+         <FRBRExpression>/join/id/regdata/mnre1034/2019/GIO_kustfundament/nld@2019-12-01</FRBRExpression>
+         <soortWork>/join/id/stop/work_007</soortWork>
+      </ExpressionIdentificatie>
+      <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <eindverantwoordelijke>/join/id/stop/ministerie/mnre1034</eindverantwoordelijke>
+         <maker>/join/id/stop/ministerie/mnre1034</maker>
+         <alternatieveTitels>
+            <alternatieveTitel>kustfundament</alternatieveTitel>
+         </alternatieveTitels>
+         <officieleTitel>kustfundament</officieleTitel>
+         <publicatieinstructie>TeConsolideren</publicatieinstructie>
+         <formaatInformatieobject>/join/id/stop/informatieobject/gio_002</formaatInformatieobject>
+         <soortenInformatieobject>
+            <soortInformatieobject>/join/id/stop/informatieobject/gio_001</soortInformatieobject>
+         </soortenInformatieobject>
+         <heeftGeboorteregeling>/akn/nl/act/mnre1034/2019/201912011101</heeftGeboorteregeling>
+         <heeftBestanden>
+            <heeftBestand>
+               <Bestand>
+                  <bestandsnaam>kustfundament.gml</bestandsnaam>
+                  <!-- <https://www.gnu.org/software/coreutils/ -->
+                  <!--  SHA512 (512-bit) checksums: The sums are computed as described in FIPS-180-2. -->
+                  <hash>5ef239a4ef2eb77077f413d9bfb60e0b7ca9262ac2b79ab95508784382da2a4426029fd1bad2bcaf6e6bae6bf4cc0a29e6b5f4e517ce6650a44888f01a349d9a</hash>
+               </Bestand>
+            </heeftBestand>
+         </heeftBestanden>
+      </InformatieObjectMetadata>
+   </InformatieObjectVersie>
+</AanleveringInformatieObject>
