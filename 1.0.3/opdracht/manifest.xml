@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<lvbb:manifest xmlns:lvbb="http://www.overheid.nl/2017/lvbb"
-    schemaversie="0.98.4">
+<lvbb:manifest xmlns:lvbb="http://www.overheid.nl/2017/lvbb">
     <lvbb:bestand>
         <lvbb:bestandsnaam>buisleidingen_reserveringsgebieden.gml</lvbb:bestandsnaam>
         <lvbb:contentType>application/gml+xml</lvbb:contentType>
@@ -430,7 +429,15 @@
         <lvbb:contentType>application/xml</lvbb:contentType>
     </lvbb:bestand>
     <lvbb:bestand>
-        <lvbb:bestandsnaam>OwLocatie-Omgevingsregeling.xml</lvbb:bestandsnaam>
+        <lvbb:bestandsnaam>OwRegelTekst-Omgevingsregeling-owNederland</lvbb:bestandsnaam>
+        <lvbb:contentType>application/xml</lvbb:contentType>
+    </lvbb:bestand>
+    <lvbb:bestand>
+        <lvbb:bestandsnaam>OwLocatie-gebiedengroep-Omgevingsregeling.xml</lvbb:bestandsnaam>
+        <lvbb:contentType>application/xml</lvbb:contentType>
+    </lvbb:bestand>
+    <lvbb:bestand>
+        <lvbb:bestandsnaam>OwLocatie-gebied-Omgevingsregeling.xml</lvbb:bestandsnaam>
         <lvbb:contentType>application/xml</lvbb:contentType>
     </lvbb:bestand>
     <lvbb:bestand>

@@ -1,52 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<AanleveringGIO 
-    xmlns="https://standaarden.overheid.nl/lvbb/DSO-PI12"
-    xmlns:data="https://standaarden.overheid.nl/stop/imop/data/"
-    xmlns:lvbb="http://standaarden.overheid.nl/lvbb/stop/"
-    xmlns:xlink="http://www.w3.org/1999/xlink"
-    xmlns:uit="https://standaarden.overheid.nl/lvbb/DSO-PI12" schemaversie="0.98.4"
-    xmlns:gml="http://www.opengis.net/gml/3.2">
-    <InformatieObjectVersie>
-        <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-            <FRBRWork>/join/id/regdata/mnre1034/2019/GIO_defensie_radarverstoringsgebied_windturbines_Milligen</FRBRWork>
-            <FRBRExpression>/join/id/regdata/mnre1034/2019/GIO_defensie_radarverstoringsgebied_windturbines_Milligen/nld@2019-12-01</FRBRExpression>
-            <soortWork>/join/id/stop/work_007</soortWork>
-        </ExpressionIdentificatie>
-        <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-            <eindverantwoordelijke>/join/id/stop/ministerie/mnre1034</eindverantwoordelijke>
-            <maker>/join/id/stop/ministerie/mnre1034</maker>
-            <noemer>defensie_radarverstoringsgebied_windturbines_Milligen</noemer>
-            <officieleTitel>defensie_radarverstoringsgebied_windturbines_Milligen</officieleTitel>
-            <publicatieinstructie>TeConsolideren</publicatieinstructie>
-            <soortInformatieobject>/join/id/stop/informatieobject/gio_001</soortInformatieobject>
-            <!-- Koppeling naar het gml-bestand -->
-            <heeftBestanden>
-                <heeftBestand>
-                    <Bestand>
-                        <bestandsnaam>defensie_radarverstoringsgebied_windturbines_Milligen.gml</bestandsnaam>
-                        <!-- <https://www.gnu.org/software/coreutils/ -->
-                        <!--  SHA512 (512-bit) checksums: The sums are computed as described in FIPS-180-2. -->
-                        <hash>1f8acb902a3688ae6158d9ee26b6a6e70457ea8b844b6281c19e8197b336bfd714cb3d9825ee083cf0880a6c9cf924a09ab387cea09094023e9472c440ad3d07</hash>
-                    </Bestand>
-                </heeftBestand>
-            </heeftBestanden>
-        </InformatieObjectMetadata>
-        <GeoInformatie xmlns="https://standaarden.overheid.nl/stop/imop/geo/">
-            <featureMember>
-                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
-                    gml:id="defensie_radarverstoringsgebied_windturbines_Milligen_1">
-                    <wId>defensie_radarverstoringsgebied_windturbines_Milligen_1</wId>
-                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
-                        xlink:href="defensie_radarverstoringsgebied_windturbines_Milligen.gml#d3d126fa-4f2b-4d06-816d-41be865aa053"
-                    />
-                </Locatie>
-            </featureMember>
-        </GeoInformatie>
-        <Achtergrond xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-            <bronactualiteit>2019-01-01</bronactualiteit>
-            <bronbeschrijving>top10nl</bronbeschrijving>
-            <brontype>achtergrond</brontype>
-            <nauwkeurigheid>10</nauwkeurigheid>
-        </Achtergrond>
-    </InformatieObjectVersie>
-</AanleveringGIO>
+<?xml version="1.0" encoding="utf-8"?>
+<AanleveringInformatieObject xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/"
+                             schemaversie="1.0.3">
+   <InformatieObjectVersie>
+      <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <FRBRWork>/join/id/regdata/mnre1034/2019/GIO_defensie_radarverstoringsgebied_windturbines_Milligen</FRBRWork>
+         <FRBRExpression>/join/id/regdata/mnre1034/2019/GIO_defensie_radarverstoringsgebied_windturbines_Milligen/nld@2019-12-01</FRBRExpression>
+         <soortWork>/join/id/stop/work_010</soortWork>
+      </ExpressionIdentificatie>
+      <InformatieObjectVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <heeftGeboorteregeling>/akn/nl/act/mnre1034/2019/201912011101</heeftGeboorteregeling>
+         <heeftBestanden>
+            <heeftBestand>
+               <Bestand>
+                  <bestandsnaam>defensie_radarverstoringsgebied_windturbines_Milligen.gml</bestandsnaam>
+                  <!-- <https://www.gnu.org/software/coreutils/ -->
+                  <!--  SHA512 (512-bit) checksums: The sums are computed as described in FIPS-180-2. -->
+                  <hash>f3c3f4fa3ed6edc699bfa42fc92329b22bb855418c3a4be78a190f01944c6e8302b2a84b0cda62c71046e579f38018819785bf164e96ed68bce4bd720a1534b3</hash>
+               </Bestand>
+            </heeftBestand>
+         </heeftBestanden>
+      </InformatieObjectVersieMetadata>
+      <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <eindverantwoordelijke>/join/id/stop/ministerie/mnre1034</eindverantwoordelijke>
+         <maker>/join/id/stop/ministerie/mnre1034</maker>
+         <alternatieveTitels>
+            <alternatieveTitel>defensie_radarverstoringsgebied_windturbines_Milligen</alternatieveTitel>
+         </alternatieveTitels>
+         <officieleTitel>defensie_radarverstoringsgebied_windturbines_Milligen</officieleTitel>
+         <publicatieinstructie>TeConsolideren</publicatieinstructie>
+         <naamInformatieObject>defensie_radarverstoringsgebied_windturbines_Milligen</naamInformatieObject>
+         <formaatInformatieobject>/join/id/stop/informatieobject/gio_002</formaatInformatieobject>
+      </InformatieObjectMetadata>
+   </InformatieObjectVersie>
+</AanleveringInformatieObject>

@@ -12,8 +12,16 @@
          <objecttype>RegelVoorIedereen</objecttype>
       </Bestand>
       <Bestand>
-         <naam>OwLocatie-Omgevingsregeling.xml</naam>
+         <naam>OwRegelTekst-Omgevingsregeling-owNederland.xml</naam>
+         <objecttype>Regeltekst</objecttype>
+         <objecttype>RegelVoorIedereen</objecttype>
+      </Bestand>
+      <Bestand>
+         <naam>OwLocatie-gebiedengroep-Omgevingsregeling.xml</naam>
          <objecttype>Gebiedengroep</objecttype>
+      </Bestand>
+      <Bestand>
+         <naam>OwLocatie-gebied-Omgevingsregeling.xml</naam>
          <objecttype>Gebied</objecttype>
       </Bestand>
    </Aanlevering>

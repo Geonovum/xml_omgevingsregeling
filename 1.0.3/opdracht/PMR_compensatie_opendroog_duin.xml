@@ -1,52 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<AanleveringGIO 
-    xmlns="https://standaarden.overheid.nl/lvbb/DSO-PI12"
-    xmlns:data="https://standaarden.overheid.nl/stop/imop/data/"
-    xmlns:lvbb="http://standaarden.overheid.nl/lvbb/stop/"
-    xmlns:xlink="http://www.w3.org/1999/xlink"
-    xmlns:uit="https://standaarden.overheid.nl/lvbb/DSO-PI12" schemaversie="0.98.4"
-    xmlns:gml="http://www.opengis.net/gml/3.2">
-    <InformatieObjectVersie>
-        <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-            <FRBRWork>/join/id/regdata/mnre1034/2019/GIO_PMR_compensatie_opendroog_duin</FRBRWork>
-            <FRBRExpression>/join/id/regdata/mnre1034/2019/GIO_PMR_compensatie_opendroog_duin/nld@2019-12-01</FRBRExpression>
-            <soortWork>/join/id/stop/work_007</soortWork>
-        </ExpressionIdentificatie>
-        <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-            <eindverantwoordelijke>/join/id/stop/ministerie/mnre1034</eindverantwoordelijke>
-            <maker>/join/id/stop/ministerie/mnre1034</maker>
-            <noemer>PMR_compensatie_opendroog_duin</noemer>
-            <officieleTitel>PMR_compensatie_opendroog_duin</officieleTitel>
-            <publicatieinstructie>TeConsolideren</publicatieinstructie>
-            <soortInformatieobject>/join/id/stop/informatieobject/gio_001</soortInformatieobject>
-            <!-- Koppeling naar het gml-bestand -->
-            <heeftBestanden>
-                <heeftBestand>
-                    <Bestand>
-                        <bestandsnaam>PMR_compensatie_opendroog_duin.gml</bestandsnaam>
-                        <!-- <https://www.gnu.org/software/coreutils/ -->
-                        <!--  SHA512 (512-bit) checksums: The sums are computed as described in FIPS-180-2. -->
-                        <hash>97e2f12d3ff239e9f40ca397ba73ee7d1cd07f7a76e53dd59977d8b4bda26a0e24d3d521d42750536b7a643d92b69ba0fade3bd148c97040b1418ace389d0558</hash>
-                    </Bestand>
-                </heeftBestand>
-            </heeftBestanden>
-        </InformatieObjectMetadata>
-        <GeoInformatie xmlns="https://standaarden.overheid.nl/stop/imop/geo/">
-            <featureMember>
-                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
-                    gml:id="PMR_compensatie_opendroog_duin_1">
-                    <wId>PMR_compensatie_opendroog_duin_1</wId>
-                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
-                        xlink:href="PMR_compensatie_opendroog_duin.gml#f2b15775-5471-447e-9723-5e7b3720001"
-                    />
-                </Locatie>
-            </featureMember>
-        </GeoInformatie>
-        <Achtergrond xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-            <bronactualiteit>2019-01-01</bronactualiteit>
-            <bronbeschrijving>top10nl</bronbeschrijving>
-            <brontype>achtergrond</brontype>
-            <nauwkeurigheid>10</nauwkeurigheid>
-        </Achtergrond>
-    </InformatieObjectVersie>
-</AanleveringGIO>
+<?xml version="1.0" encoding="utf-8"?>
+<AanleveringInformatieObject xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/"
+                             schemaversie="1.0.3">
+   <InformatieObjectVersie>
+      <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <FRBRWork>/join/id/regdata/mnre1034/2019/GIO_PMR_compensatie_opendroog_duin</FRBRWork>
+         <FRBRExpression>/join/id/regdata/mnre1034/2019/GIO_PMR_compensatie_opendroog_duin/nld@2019-12-01</FRBRExpression>
+         <soortWork>/join/id/stop/work_010</soortWork>
+      </ExpressionIdentificatie>
+      <InformatieObjectVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <heeftGeboorteregeling>/akn/nl/act/mnre1034/2019/201912011101</heeftGeboorteregeling>
+         <heeftBestanden>
+            <heeftBestand>
+               <Bestand>
+                  <bestandsnaam>PMR_compensatie_opendroog_duin.gml</bestandsnaam>
+                  <!-- <https://www.gnu.org/software/coreutils/ -->
+                  <!--  SHA512 (512-bit) checksums: The sums are computed as described in FIPS-180-2. -->
+                  <hash>f602587dac561dc7c2880fb8b18537e71fc1ba8cdc4306ef1293025053b9082963262589a8e0ac618d34e3a113602803bef5d1be746b967e4d956c10019124e1</hash>
+               </Bestand>
+            </heeftBestand>
+         </heeftBestanden>
+      </InformatieObjectVersieMetadata>
+      <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <eindverantwoordelijke>/join/id/stop/ministerie/mnre1034</eindverantwoordelijke>
+         <maker>/join/id/stop/ministerie/mnre1034</maker>
+         <alternatieveTitels>
+            <alternatieveTitel>PMR_compensatie_opendroog_duin</alternatieveTitel>
+         </alternatieveTitels>
+         <officieleTitel>PMR_compensatie_opendroog_duin</officieleTitel>
+         <publicatieinstructie>TeConsolideren</publicatieinstructie>
+         <naamInformatieObject>PMR_compensatie_opendroog_duin</naamInformatieObject>
+         <formaatInformatieobject>/join/id/stop/informatieobject/gio_002</formaatInformatieobject>
+      </InformatieObjectMetadata>
+   </InformatieObjectVersie>
+</AanleveringInformatieObject>

@@ -1,52 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<AanleveringGIO 
-    xmlns="https://standaarden.overheid.nl/lvbb/DSO-PI12"
-    xmlns:data="https://standaarden.overheid.nl/stop/imop/data/"
-    xmlns:lvbb="http://standaarden.overheid.nl/lvbb/stop/"
-    xmlns:xlink="http://www.w3.org/1999/xlink"
-    xmlns:uit="https://standaarden.overheid.nl/lvbb/DSO-PI12" schemaversie="0.98.4"
-    xmlns:gml="http://www.opengis.net/gml/3.2">
-    <InformatieObjectVersie>
-        <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-            <FRBRWork>/join/id/regdata/mnre1034/2019/GIO_reserveringsgebieden_nieuwe_hoofdspoorwegen</FRBRWork>
-            <FRBRExpression>/join/id/regdata/mnre1034/2019/GIO_reserveringsgebieden_nieuwe_hoofdspoorwegen/nld@2019-12-01</FRBRExpression>
-            <soortWork>/join/id/stop/work_007</soortWork>
-        </ExpressionIdentificatie>
-        <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-            <eindverantwoordelijke>/join/id/stop/ministerie/mnre1034</eindverantwoordelijke>
-            <maker>/join/id/stop/ministerie/mnre1034</maker>
-            <noemer>reserveringsgebieden_nieuwe_hoofdspoorwegen</noemer>
-            <officieleTitel>reserveringsgebieden_nieuwe_hoofdspoorwegen</officieleTitel>
-            <publicatieinstructie>TeConsolideren</publicatieinstructie>
-            <soortInformatieobject>/join/id/stop/informatieobject/gio_001</soortInformatieobject>
-            <!-- Koppeling naar het gml-bestand -->
-            <heeftBestanden>
-                <heeftBestand>
-                    <Bestand>
-                        <bestandsnaam>reserveringsgebieden_nieuwe_hoofdspoorwegen.gml</bestandsnaam>
-                        <!-- <https://www.gnu.org/software/coreutils/ -->
-                        <!--  SHA512 (512-bit) checksums: The sums are computed as described in FIPS-180-2. -->
-                        <hash>3877e6e1190554c6e553c30ef66a2e7f508f59dbc961720897422123e5fc658019e5b49606ed33ba23e3cada9500e23543f85e3a491693777f1ca6aa18df52df</hash>
-                    </Bestand>
-                </heeftBestand>
-            </heeftBestanden>
-        </InformatieObjectMetadata>
-        <GeoInformatie xmlns="https://standaarden.overheid.nl/stop/imop/geo/">
-            <featureMember>
-                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
-                    gml:id="reserveringsgebieden_nieuwe_hoofdspoorwegen_1">
-                    <wId>reserveringsgebieden_nieuwe_hoofdspoorwegen_1</wId>
-                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
-                        xlink:href="reserveringsgebieden_nieuwe_hoofdspoorwegen.gml#a2b15775-5471-447e-9723-5e7b7b9abc1"
-                    />
-                </Locatie>
-            </featureMember>
-        </GeoInformatie>
-        <Achtergrond xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-            <bronactualiteit>2019-01-01</bronactualiteit>
-            <bronbeschrijving>top10nl</bronbeschrijving>
-            <brontype>achtergrond</brontype>
-            <nauwkeurigheid>10</nauwkeurigheid>
-        </Achtergrond>
-    </InformatieObjectVersie>
-</AanleveringGIO>
+<?xml version="1.0" encoding="utf-8"?>
+<!--Voor validatie is het noodzakelijk om ook de catalogi van de gepubliceerde versie 1.0.4 te laden.-->
+<AanleveringInformatieObject xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/"
+                             xmlns:geo="https://standaarden.overheid.nl/stop/imop/geo/"
+                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                             schemaversie="1.0.4"
+                             xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.0.4/lvbb-stop-aanlevering.xsd">
+   <InformatieObjectVersie>
+      <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <FRBRWork>/join/id/regdata/mnre1034/2019/GIO_reserveringsgebieden_nieuwe_hoofdspoorwegen</FRBRWork>
+         <FRBRExpression>/join/id/regdata/mnre1034/2019/GIO_reserveringsgebieden_nieuwe_hoofdspoorwegen/nld@2019-12-01</FRBRExpression>
+         <soortWork>/join/id/stop/work_010</soortWork>
+      </ExpressionIdentificatie>
+      <InformatieObjectVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <heeftGeboorteregeling>/akn/nl/act/mnre1034/2019/201912011101</heeftGeboorteregeling>
+         <heeftBestanden>
+            <heeftBestand>
+               <Bestand>
+                  <bestandsnaam>reserveringsgebieden_nieuwe_hoofdspoorwegen.gml</bestandsnaam>
+                  <!-- <https://www.gnu.org/software/coreutils/ -->
+                  <!--  SHA512 (512-bit) checksums: The sums are computed as described in FIPS-180-2. -->
+                  <hash>49c847ccd8d5bfb4d2e2e18b71851735d389cfd1a988d04e16c8c4b3ac256a949280a08322a9127bb02e034a78cc9e5bd81c8bd8d06f4fa63c47e0acecf3e96d</hash>
+               </Bestand>
+            </heeftBestand>
+         </heeftBestanden>
+      </InformatieObjectVersieMetadata>
+      <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <eindverantwoordelijke>/join/id/stop/ministerie/mnre1034</eindverantwoordelijke>
+         <maker>/join/id/stop/ministerie/mnre1034</maker>
+         <alternatieveTitels>
+            <alternatieveTitel>reserveringsgebieden_nieuwe_hoofdspoorwegen</alternatieveTitel>
+         </alternatieveTitels>
+         <officieleTitel>/join/id/regdata/mnre1034/2019/GIO_reserveringsgebieden_nieuwe_hoofdspoorwegen</officieleTitel>
+         <publicatieinstructie>TeConsolideren</publicatieinstructie>
+         <naamInformatieObject>reserveringsgebieden_nieuwe_hoofdspoorwegen</naamInformatieObject>
+         <formaatInformatieobject>/join/id/stop/informatieobject/gio_002</formaatInformatieobject>
+      </InformatieObjectMetadata>
+   </InformatieObjectVersie>
+</AanleveringInformatieObject>

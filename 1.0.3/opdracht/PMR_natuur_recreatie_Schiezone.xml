@@ -1,52 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<AanleveringGIO 
-    xmlns="https://standaarden.overheid.nl/lvbb/DSO-PI12"
-    xmlns:data="https://standaarden.overheid.nl/stop/imop/data/"
-    xmlns:lvbb="http://standaarden.overheid.nl/lvbb/stop/"
-    xmlns:xlink="http://www.w3.org/1999/xlink"
-    xmlns:uit="https://standaarden.overheid.nl/lvbb/DSO-PI12" schemaversie="0.98.4"
-    xmlns:gml="http://www.opengis.net/gml/3.2">
-    <InformatieObjectVersie>
-        <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-            <FRBRWork>/join/id/regdata/mnre1034/2019/GIO_PMR_natuur_recreatie_Schiezone</FRBRWork>
-            <FRBRExpression>/join/id/regdata/mnre1034/2019/GIO_PMR_natuur_recreatie_Schiezone/nld@2019-12-01</FRBRExpression>
-            <soortWork>/join/id/stop/work_007</soortWork>
-        </ExpressionIdentificatie>
-        <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-            <eindverantwoordelijke>/join/id/stop/ministerie/mnre1034</eindverantwoordelijke>
-            <maker>/join/id/stop/ministerie/mnre1034</maker>
-            <noemer>PMR_natuur_recreatie_Schiezone</noemer>
-            <officieleTitel>PMR_natuur_recreatie_Schiezone</officieleTitel>
-            <publicatieinstructie>TeConsolideren</publicatieinstructie>
-            <soortInformatieobject>/join/id/stop/informatieobject/gio_001</soortInformatieobject>
-            <!-- Koppeling naar het gml-bestand -->
-            <heeftBestanden>
-                <heeftBestand>
-                    <Bestand>
-                        <bestandsnaam>PMR_natuur_recreatie_Schiezone.gml</bestandsnaam>
-                        <!-- <https://www.gnu.org/software/coreutils/ -->
-                        <!--  SHA512 (512-bit) checksums: The sums are computed as described in FIPS-180-2. -->
-                        <hash>9534c93beaaec17be42ed8d7743abd4645083a45a1b079ba1ab7a49f07ad47e73548720d03ec5f6effa7fcdc8b36ea5291a3a91fbbb31cd2d7a6209c2404dec9</hash>
-                    </Bestand>
-                </heeftBestand>
-            </heeftBestanden>
-        </InformatieObjectMetadata>
-        <GeoInformatie xmlns="https://standaarden.overheid.nl/stop/imop/geo/">
-            <featureMember>
-                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
-                    gml:id="PMR_natuur_recreatie_Schiezone_1">
-                    <wId>PMR_natuur_recreatie_Schiezone_1</wId>
-                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
-                        xlink:href="PMR_natuur_recreatie_Schiezone.gml#42b15775-5471-447e-9723-5e7b3703c33a"
-                    />
-                </Locatie>
-            </featureMember>
-        </GeoInformatie>
-        <Achtergrond xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-            <bronactualiteit>2019-01-01</bronactualiteit>
-            <bronbeschrijving>top10nl</bronbeschrijving>
-            <brontype>achtergrond</brontype>
-            <nauwkeurigheid>10</nauwkeurigheid>
-        </Achtergrond>
-    </InformatieObjectVersie>
-</AanleveringGIO>
+<?xml version="1.0" encoding="utf-8"?>
+<AanleveringInformatieObject xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/"
+                             schemaversie="1.0.3">
+   <InformatieObjectVersie>
+      <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <FRBRWork>/join/id/regdata/mnre1034/2019/GIO_PMR_natuur_recreatie_Schiezone</FRBRWork>
+         <FRBRExpression>/join/id/regdata/mnre1034/2019/GIO_PMR_natuur_recreatie_Schiezone/nld@2019-12-01</FRBRExpression>
+         <soortWork>/join/id/stop/work_010</soortWork>
+      </ExpressionIdentificatie>
+      <InformatieObjectVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <heeftGeboorteregeling>/akn/nl/act/mnre1034/2019/201912011101</heeftGeboorteregeling>
+         <heeftBestanden>
+            <heeftBestand>
+               <Bestand>
+                  <bestandsnaam>PMR_natuur_recreatie_Schiezone.gml</bestandsnaam>
+                  <!-- <https://www.gnu.org/software/coreutils/ -->
+                  <!--  SHA512 (512-bit) checksums: The sums are computed as described in FIPS-180-2. -->
+                  <hash>b018e2813abbc1441f3b2cdd9f5f7fa4650e5946e752091d9d44b75e695256f832922d1ea6a168052fcdb3d3ea31c8e8d651be231435bfc585626dcb33780358</hash>
+               </Bestand>
+            </heeftBestand>
+         </heeftBestanden>
+      </InformatieObjectVersieMetadata>
+      <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <eindverantwoordelijke>/join/id/stop/ministerie/mnre1034</eindverantwoordelijke>
+         <maker>/join/id/stop/ministerie/mnre1034</maker>
+         <alternatieveTitels>
+            <alternatieveTitel>PMR_natuur_recreatie_Schiezone</alternatieveTitel>
+         </alternatieveTitels>
+         <officieleTitel>PMR_natuur_recreatie_Schiezone</officieleTitel>
+         <publicatieinstructie>TeConsolideren</publicatieinstructie>
+         <naamInformatieObject>PMR_natuur_recreatie_Schiezone</naamInformatieObject>
+         <formaatInformatieobject>/join/id/stop/informatieobject/gio_002</formaatInformatieobject>
+      </InformatieObjectMetadata>
+   </InformatieObjectVersie>
+</AanleveringInformatieObject>

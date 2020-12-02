@@ -1,52 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<AanleveringGIO 
-    xmlns="https://standaarden.overheid.nl/lvbb/DSO-PI12"
-    xmlns:data="https://standaarden.overheid.nl/stop/imop/data/"
-    xmlns:lvbb="http://standaarden.overheid.nl/lvbb/stop/"
-    xmlns:xlink="http://www.w3.org/1999/xlink"
-    xmlns:uit="https://standaarden.overheid.nl/lvbb/DSO-PI12" schemaversie="0.98.4"
-    xmlns:gml="http://www.opengis.net/gml/3.2">
-    <InformatieObjectVersie>
-        <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-            <FRBRWork>/join/id/regdata/mnre1034/2019/GIO_reserveringsgebied_parallelle_Kaagbaan</FRBRWork>
-            <FRBRExpression>/join/id/regdata/mnre1034/2019/GIO_reserveringsgebied_parallelle_Kaagbaan/nld@2019-12-01</FRBRExpression>
-            <soortWork>/join/id/stop/work_007</soortWork>
-        </ExpressionIdentificatie>
-        <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-            <eindverantwoordelijke>/join/id/stop/ministerie/mnre1034</eindverantwoordelijke>
-            <maker>/join/id/stop/ministerie/mnre1034</maker>
-            <noemer>reserveringsgebied_parallelle_Kaagbaan</noemer>
-            <officieleTitel>reserveringsgebied_parallelle_Kaagbaan</officieleTitel>
-            <publicatieinstructie>TeConsolideren</publicatieinstructie>
-            <soortInformatieobject>/join/id/stop/informatieobject/gio_001</soortInformatieobject>
-            <!-- Koppeling naar het gml-bestand -->
-            <heeftBestanden>
-                <heeftBestand>
-                    <Bestand>
-                        <bestandsnaam>reserveringsgebied_parallelle_Kaagbaan.gml</bestandsnaam>
-                        <!-- <https://www.gnu.org/software/coreutils/ -->
-                        <!--  SHA512 (512-bit) checksums: The sums are computed as described in FIPS-180-2. -->
-                        <hash>be8365066555057c47cb196eba97eb8722bc8b44936d545dba95a38b8f19539e10f41e9a7419c5d723726de10007ee6a1db5a35aecf90339d83d7af78fd02831</hash>
-                    </Bestand>
-                </heeftBestand>
-            </heeftBestanden>
-        </InformatieObjectMetadata>
-        <GeoInformatie xmlns="https://standaarden.overheid.nl/stop/imop/geo/">
-            <featureMember>
-                <Locatie xmlns:gml="http://www.opengis.net/gml/3.2"
-                    gml:id="reserveringsgebied_parallelle_Kaagbaan_1">
-                    <wId>reserveringsgebied_parallelle_Kaagbaan_1</wId>
-                    <geometrie xmlns:xlink="http://www.w3.org/1999/xlink"
-                        xlink:href="reserveringsgebied_parallelle_Kaagbaan.gml#82b15775-5471-447e-9723-5e7b3703c317a"
-                    />
-                </Locatie>
-            </featureMember>
-        </GeoInformatie>
-        <Achtergrond xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-            <bronactualiteit>2019-01-01</bronactualiteit>
-            <bronbeschrijving>top10nl</bronbeschrijving>
-            <brontype>achtergrond</brontype>
-            <nauwkeurigheid>10</nauwkeurigheid>
-        </Achtergrond>
-    </InformatieObjectVersie>
-</AanleveringGIO>
+<?xml version="1.0" encoding="utf-8"?>
+<!--Voor validatie is het noodzakelijk om ook de catalogi van de gepubliceerde versie 1.0.4 te laden.-->
+<AanleveringInformatieObject xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/"
+                             xmlns:geo="https://standaarden.overheid.nl/stop/imop/geo/"
+                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                             schemaversie="1.0.4"
+                             xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.0.4/lvbb-stop-aanlevering.xsd">
+   <InformatieObjectVersie>
+      <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <FRBRWork>/join/id/regdata/mnre1034/2019/GIO_reserveringsgebied_parallelle_Kaagbaan</FRBRWork>
+         <FRBRExpression>/join/id/regdata/mnre1034/2019/GIO_reserveringsgebied_parallelle_Kaagbaan/nld@2019-12-01</FRBRExpression>
+         <soortWork>/join/id/stop/work_010</soortWork>
+      </ExpressionIdentificatie>
+      <InformatieObjectVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <heeftGeboorteregeling>/akn/nl/act/mnre1034/2019/201912011101</heeftGeboorteregeling>
+         <heeftBestanden>
+            <heeftBestand>
+               <Bestand>
+                  <bestandsnaam>reserveringsgebied_parallelle_Kaagbaan.gml</bestandsnaam>
+                  <!-- <https://www.gnu.org/software/coreutils/ -->
+                  <!--  SHA512 (512-bit) checksums: The sums are computed as described in FIPS-180-2. -->
+                  <hash>0ea172beac8b2e1b70c7d1f19aa3f094a1e08e5d0b855d7a1f37b57d77d8ec613e5de324a76c61a4d70419ce542981aba3d5cceef6be250ef671e3a41c203127</hash>
+               </Bestand>
+            </heeftBestand>
+         </heeftBestanden>
+      </InformatieObjectVersieMetadata>
+      <InformatieObjectMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <eindverantwoordelijke>/join/id/stop/ministerie/mnre1034</eindverantwoordelijke>
+         <maker>/join/id/stop/ministerie/mnre1034</maker>
+         <alternatieveTitels>
+            <alternatieveTitel>reserveringsgebied_parallelle_Kaagbaan</alternatieveTitel>
+         </alternatieveTitels>
+         <officieleTitel>/join/id/regdata/mnre1034/2019/GIO_reserveringsgebied_parallelle_Kaagbaan</officieleTitel>
+         <publicatieinstructie>TeConsolideren</publicatieinstructie>
+         <naamInformatieObject>reserveringsgebied_parallelle_Kaagbaan</naamInformatieObject>
+         <formaatInformatieobject>/join/id/stop/informatieobject/gio_002</formaatInformatieobject>
+      </InformatieObjectMetadata>
+   </InformatieObjectVersie>
+</AanleveringInformatieObject>

@@ -8,14 +8,14 @@
                                      schemaversie="1.0.4">
    <geo:context>
       <gio:GeografischeContext>
-         <gio:achtergrondVerwijzing/>
-         <gio:achtergrondActualiteit/>
+         <gio:achtergrondVerwijzing>top10nl</gio:achtergrondVerwijzing>
+         <gio:achtergrondActualiteit>2019-01-01</gio:achtergrondActualiteit>
       </gio:GeografischeContext>
    </geo:context>
    <geo:vastgesteldeVersie>
       <geo:GeoInformatieObjectVersie>
-         <geo:FRBRWork/>
-         <geo:FRBRExpression/>
+         <geo:FRBRWork>/join/id/regdata/mnre1034/2019/GIO_reservering_maas</geo:FRBRWork>
+         <geo:FRBRExpression>/join/id/regdata/mnre1034/2019/GIO_reservering_maas/nld@2019-12-01</geo:FRBRExpression>
          <geo:locaties>
             <geo:Locatie>
                <geo:geometrie>
